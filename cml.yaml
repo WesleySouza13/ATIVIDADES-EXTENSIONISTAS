@@ -9,5 +9,5 @@ jobs:
      
       - uses: iterative/setup-cml@v1
       - name: Train model
-        run: |
+        run: 
           
