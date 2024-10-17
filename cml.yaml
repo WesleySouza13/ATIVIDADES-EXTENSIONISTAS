@@ -1,1 +1,13 @@
-
+name: test-exemplo-iris_dataset
+on: [push]
+jobs:
+  run:
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+     
+      - uses: iterative/setup-cml@v1
+      - name: Train model
+        run: |
+          
